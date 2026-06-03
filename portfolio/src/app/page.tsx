@@ -12,11 +12,11 @@ export default function Home() {
     <main className="bg-[#121212] min-h-screen">
       <FloatingNav />
       <ScrollyCanvas />
+      <AboutMe />
+      <Experience />
       <Projects />
       <WhatIDo />
       <Arsenal />
-      <AboutMe />
-      <Experience />
       <FooterCTA />
     </main>
   );

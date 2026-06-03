@@ -52,18 +52,18 @@ export default function AboutMe() {
           </h3>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight">
-            Building secure, scalable systems that perform.
+            AI-Backed Engineer. Shipping systems that think.
           </h2>
           
           <div className="space-y-6 text-gray-400 text-lg md:text-xl font-light leading-relaxed">
             <p>
-              I&apos;m Jayant — a Python Backend Developer with 1+ year of production experience building secure, scalable systems using Django REST Framework, PostgreSQL, Docker, and AWS.
+              I&apos;m Jayant — an <span className="text-white font-medium">AI-Backed Engineer</span> with 1.5+ years of production experience building secure, scalable systems end-to-end — from PostgreSQL schema design and Django REST APIs to Docker-based CI/CD on AWS.
             </p>
             <p>
-              I&apos;m hands-on with microservices, JWT/mTLS authentication, and CI/CD automation. Also a published IEEE researcher in AI/ML with working knowledge of LLMs, LangChain, and ML model integration.
+              I design and ship <span className="text-white font-medium">Agentic AI systems</span> using LangChain, LangGraph, MCP tools, and RAG pipelines — autonomous agents that crawl, reason, and act in the real world. Comfortable with LLMs (Llama 3.3, DeepSeek, Gemini) and agentic frameworks from scratch to production.
             </p>
             <p>
-              Currently at Aaptekno US LLP, contributing to high-performance distributed systems in Rust and Python — driven by the intersection of performance, security, and clean architecture.
+              Currently at Aaptekno US LLP, building high-performance distributed systems in Rust and Python. Also a published IEEE researcher in CNN + LSTM deepfake detection — driven by the intersection of AI, performance, and clean architecture.
             </p>
           </div>
 

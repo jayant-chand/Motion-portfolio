@@ -5,16 +5,15 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Software Engineer — Backend / Full-Stack",
+    title: "Junior Software Engineer — Full Stack / Backend / DevOps",
     company: "Aaptekno US LLP",
     location: "Bangalore, India",
     period: "Feb 2025 — Present",
     bullets: [
-      "Designed Python RESTful backend services with Django and ORM-backed PostgreSQL supporting secure enterprise workflows.",
-      "Implemented JWT and mTLS authentication/authorization, strengthening API security across enterprise deployments.",
-      "Built a Rust + Python agent service with DB indexing strategies, reducing average API response time by ~40%.",
-      "Integrated async inter-service messaging via NATS in a microservices architecture for event-driven communication.",
-      "Automated CI/CD pipelines using GitHub Actions and Docker, cutting release cycle time by ~50%.",
+      "Architected Python RESTful backend services with Django DRF and PostgreSQL supporting secure enterprise data exchange; implemented JWT and mTLS authentication, hardening API security across all enterprise deployments.",
+      "Built a high-performance Rust + Python agent service with DB indexing strategies, reducing average API response time by ~40%; managed NGINX reverse proxy and Gunicorn configuration for production workloads.",
+      "Automated CI/CD pipelines via GitHub Actions and Docker across multiple services, cutting release cycle time by ~50% and enabling consistent zero-downtime deployments to AWS EC2.",
+      "Integrated async inter-service messaging via NATS within a microservices architecture for event-driven communication.",
     ],
   },
   {
@@ -23,20 +22,9 @@ const experiences = [
     location: "Bangalore, India",
     period: "Sep 2024 — Feb 2025",
     bullets: [
-      "Built Python ML pipelines for customer segmentation using deep clustering and autoencoders, improving targeting accuracy by ~25%.",
-      "Preprocessed datasets with Pandas/NumPy and deployed trained models as Python backend services for analytics.",
-      "Optimized data preprocessing pipelines, improving model accuracy by 15% using TensorFlow, Keras, and feature engineering.",
-    ],
-  },
-  {
-    title: "Web Developer Intern",
-    company: "CR Technologies Private Limited",
-    location: "Bangalore, India",
-    period: "Oct 2023 — Nov 2023",
-    bullets: [
-      "Built responsive web pages using HTML, CSS, and JavaScript in collaboration with senior developers.",
-      "Managed and optimized SQL and NoSQL databases (MySQL, MongoDB) for robust data storage.",
-      "Developed a dynamic web application that improved user engagement by 30% and reduced page load time by 20%.",
+      "Engineered end-to-end Python ML pipelines for customer segmentation using deep clustering and autoencoders, improving targeting accuracy by ~25% across production data.",
+      "Performed large-scale feature engineering with Pandas and NumPy; deployed trained models as Dockerized Python REST services used by the analytics team in production.",
+      "Optimized data preprocessing pipelines, improving model accuracy by 15% using TensorFlow, Keras, and feature engineering techniques.",
     ],
   },
 ];

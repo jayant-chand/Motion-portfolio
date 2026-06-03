@@ -20,6 +20,8 @@ export default function Arsenal() {
     { name: "Node.js", icon: <SiNodedotjs className="text-[#339933]" /> },
     { name: "React", icon: <SiReact className="text-[#61DAFB]" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#06B6D4]" /> },
+    { name: "LangChain", icon: <AiOutlineRobot className="text-[#1C3C3C]" style={{ color: "#1CD4A7" }} /> },
+    { name: "LangGraph", icon: <AiOutlineRobot className="text-violet-400" /> },
   ];
 
   const row2 = [
@@ -30,7 +32,7 @@ export default function Arsenal() {
     { name: "AWS EC2/S3", icon: <FaAws className="text-[#FF9900]" /> },
     { name: "NGINX", icon: <SiNginx className="text-[#009639]" /> },
     { name: "GitHub Actions", icon: <SiGithubactions className="text-[#2088FF]" /> },
-    { name: "LangChain", icon: <AiOutlineRobot className="text-white" /> },
+    { name: "Agentic AI / MCP", icon: <AiOutlineRobot className="text-cyan-300" /> },
     { name: "TensorFlow", icon: <SiTensorflow className="text-[#FF6F00]" /> },
     { name: "Pandas / NumPy", icon: <SiPandas className="text-[#150458]" /> },
     { name: "Keras", icon: <SiKeras className="text-[#D00000]" /> },
