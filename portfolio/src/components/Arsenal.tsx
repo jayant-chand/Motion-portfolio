@@ -39,7 +39,7 @@ export default function Arsenal() {
   ];
 
   return (
-    <section className="bg-[#121212] py-20 overflow-hidden relative z-20">
+    <section className="bg-[#121212] py-16 overflow-hidden relative z-20">
       
       {/* Gradients to fade edges */}
       <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#121212] to-transparent z-10" />

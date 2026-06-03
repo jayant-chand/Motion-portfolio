@@ -31,7 +31,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-[#121212] py-32 px-8 text-white relative z-20 overflow-hidden">
+    <section id="experience" className="bg-[#121212] py-28 px-8 text-white relative z-20 overflow-hidden">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -39,7 +39,7 @@ export default function Experience() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <h3 className="text-sm font-medium tracking-widest text-[#3B82F6] uppercase mb-16 flex items-center gap-4">
+          <h3 className="text-sm font-medium tracking-widest text-[#3B82F6] uppercase mb-12 flex items-center gap-4">
             <span className="w-12 h-[1px] bg-[#3B82F6]/50"></span>
             Experience
           </h3>
@@ -65,13 +65,13 @@ export default function Experience() {
                 </div>
 
                 {/* Content Card */}
-                <div className="group relative p-8 md:p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md overflow-hidden transition-all duration-500 hover:bg-white/10">
+                <div className="group relative p-7 md:p-9 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md overflow-hidden transition-all duration-500 hover:bg-white/10">
                   <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3B82F6] via-[#06B6D4] to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-500" />
 
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
                     <div>
-                      <h4 className="text-2xl font-bold tracking-tight flex items-center gap-3">
-                        <Briefcase className="w-6 h-6 text-[#3B82F6]" />
+                      <h4 className="text-xl font-bold tracking-tight flex items-center gap-3">
+                        <Briefcase className="w-5 h-5 text-[#3B82F6]" />
                         {exp.title}
                       </h4>
                       <p className="text-[#06B6D4] mt-2 font-medium">{exp.company}</p>

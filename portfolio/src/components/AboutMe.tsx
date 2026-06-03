@@ -5,7 +5,7 @@ import { MapPin, GraduationCap } from "lucide-react";
 
 export default function AboutMe() {
   return (
-    <section id="about" className="bg-[#121212] py-32 px-8 overflow-hidden relative z-20">
+    <section id="about" className="bg-[#121212] py-28 px-8 overflow-hidden relative z-20">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
         
         {/* LEFT: Abstract AI Graphic */}
@@ -51,11 +51,11 @@ export default function AboutMe() {
             About Me
           </h3>
           
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
             AI-Backed Engineer. Shipping systems that think.
           </h2>
           
-          <div className="space-y-6 text-gray-400 text-lg md:text-xl font-light leading-relaxed">
+          <div className="space-y-4 text-gray-400 text-[15px] md:text-base font-light leading-relaxed">
             <p>
               I&apos;m Jayant — an <span className="text-white font-medium">AI-Backed Engineer</span> with 1.5+ years of production experience building secure, scalable systems end-to-end — from PostgreSQL schema design and Django REST APIs to Docker-based CI/CD on AWS.
             </p>
@@ -68,7 +68,7 @@ export default function AboutMe() {
           </div>
 
           {/* Tags */}
-          <div className="mt-12 flex flex-wrap gap-4">
+          <div className="mt-8 flex flex-wrap gap-3">
             <motion.div 
                 whileHover={{ scale: 1.05 }}
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm"
@@ -84,6 +84,18 @@ export default function AboutMe() {
               <GraduationCap className="w-4 h-4 text-[#06B6D4]" />
               B.E. Information Science — VTU (8.3 CGPA)
             </motion.div>
+          </div>
+
+          {/* Backend + AI Tech Stack Tags */}
+          <div className="mt-4 flex flex-wrap gap-2">
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-emerald-400/10 border-emerald-400/30 text-emerald-400">Django / DRF</span>
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-blue-500/10 border-blue-500/30 text-blue-400">PostgreSQL</span>
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-cyan-400/10 border-cyan-400/30 text-cyan-300">React</span>
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-[#3B82F6]/10 border-[#3B82F6]/30 text-[#3B82F6]">REST APIs</span>
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-sky-500/10 border-sky-500/30 text-sky-400">Docker</span>
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-orange-400/10 border-orange-400/30 text-orange-400">AWS</span>
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-purple-400/10 border-purple-400/30 text-purple-400">JWT Security</span>
+            <span className="px-3 py-1 rounded-full border text-xs font-medium bg-violet-400/10 border-violet-400/30 text-violet-400">Agentic AI</span>
           </div>
         </motion.div>
 

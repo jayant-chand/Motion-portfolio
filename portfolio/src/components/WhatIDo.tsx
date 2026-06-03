@@ -65,7 +65,7 @@ export default function WhatIDo() {
   };
 
   return (
-    <section className="bg-[#121212] py-32 px-8 text-white relative z-20">
+    <section className="bg-[#121212] py-28 px-8 text-white relative z-20">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -73,7 +73,7 @@ export default function WhatIDo() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <h3 className="text-sm font-medium tracking-widest text-[#3B82F6] uppercase mb-16 flex items-center gap-4">
+          <h3 className="text-sm font-medium tracking-widest text-[#3B82F6] uppercase mb-12 flex items-center gap-4">
             <span className="w-12 h-[1px] bg-[#3B82F6]/50"></span>
             What I Do
           </h3>
@@ -90,7 +90,7 @@ export default function WhatIDo() {
             <motion.div
               key={service.id}
               variants={itemVariants}
-              className={`group relative p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md transition-all duration-500 hover:bg-white/10 flex flex-col gap-6 overflow-hidden ${
+              className={`group relative p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md transition-all duration-500 hover:bg-white/10 flex flex-col gap-5 overflow-hidden ${
                 service.glow
               } ${service.id === 1 ? "md:col-span-2" : ""}`}
             >
@@ -101,12 +101,12 @@ export default function WhatIDo() {
                 </span>
               )}
               <div className="relative z-10 flex md:flex-row flex-col gap-6 items-start">
-                <div className="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center border border-white/5 group-hover:scale-110 transition-transform duration-500 shrink-0">
+                <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/5 group-hover:scale-110 transition-transform duration-500 shrink-0">
                   {service.icon}
                 </div>
                 <div>
-                  <h4 className="text-2xl font-semibold mb-3 tracking-tight">{service.title}</h4>
-                  <p className="text-gray-400 font-light leading-relaxed">{service.description}</p>
+                  <h4 className="text-xl font-semibold mb-2 tracking-tight">{service.title}</h4>
+                  <p className="text-gray-400 text-[15px] font-light leading-relaxed">{service.description}</p>
                 </div>
               </div>
             </motion.div>

@@ -27,7 +27,7 @@ export default function Overlay({ scrollYProgress }: { scrollYProgress: MotionVa
                 <h1 className="text-6xl md:text-8xl font-bold tracking-tighter">
                     Jayant Chand
                 </h1>
-                <p className="text-xl md:text-3xl mt-4 text-white/70 font-light">
+                <p className="text-xl md:text-2xl mt-4 text-white/70 font-light">
                     AI-Backed Engineer &amp; Software Developer.
                 </p>
             </motion.div>
@@ -37,13 +37,14 @@ export default function Overlay({ scrollYProgress }: { scrollYProgress: MotionVa
                 style={{ y: y2, opacity: opacity2 }}
                 className="absolute left-8 md:left-24 lg:left-32 top-1/2 -translate-y-1/2 text-left text-white max-w-xl"
             >
-                <h2 className="text-5xl md:text-6xl font-semibold tracking-tight leading-tight mix-blend-screen">
-                    I build Agentic AI
-                    &amp; scalable systems.
+                <h2 className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight mix-blend-screen">
+                    Agentic AI &amp;
+                    production backends.
                 </h2>
-                <div className="h-[2px] w-24 bg-white/40 my-6" />
-                <p className="text-xl md:text-2xl text-white/70 font-light">
-                    LangChain · LangGraph · MCP · RAG · LLMs — autonomous agents built for real-world deployment.
+                <div className="h-[2px] w-24 bg-white/40 my-5" />
+                <p className="text-lg md:text-xl text-white/70 font-light leading-relaxed">
+                    <span className="text-white/90">Django · DRF · PostgreSQL · React</span><br/>
+                    LangChain · LangGraph · MCP · RAG — shipped to production.
                 </p>
             </motion.div>
 
@@ -52,13 +53,14 @@ export default function Overlay({ scrollYProgress }: { scrollYProgress: MotionVa
                 style={{ y: y3, opacity: opacity3 }}
                 className="absolute right-8 md:right-24 lg:right-32 top-1/2 -translate-y-1/2 text-right text-white max-w-xl"
             >
-                <h2 className="text-5xl md:text-6xl font-semibold tracking-tight leading-tight mix-blend-screen">
+                <h2 className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight mix-blend-screen">
                     IEEE researcher.
                     Full-stack practitioner.
                 </h2>
-                <div className="h-[2px] w-24 bg-white/40 ml-auto my-6" />
-                <p className="text-xl md:text-2xl text-white/70 font-light">
-                    Published CNN + LSTM deepfake detection research. Django · Rust · Docker · AWS in production.
+                <div className="h-[2px] w-24 bg-white/40 ml-auto my-5" />
+                <p className="text-lg md:text-xl text-white/70 font-light leading-relaxed">
+                    Published CNN + LSTM deepfake detection research.<br/>
+                    <span className="text-white/90">Docker · AWS · API Security · REST</span> — zero-downtime production.
                 </p>
             </motion.div>
         </div>

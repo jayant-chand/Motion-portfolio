@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function FooterCTA() {
   return (
-    <section id="contact" className="bg-[#121212] py-32 px-8 relative overflow-hidden z-20 flex flex-col items-center justify-center min-h-[60vh]">
+    <section id="contact" className="bg-[#121212] py-28 px-8 relative overflow-hidden z-20 flex flex-col items-center justify-center min-h-[55vh]">
       
       {/* Animated Radial Gradient Background */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-30">
@@ -27,11 +27,11 @@ export default function FooterCTA() {
           transition={{ duration: 0.8 }}
           className="relative z-10 flex flex-col items-center text-center max-w-2xl w-full"
       >
-        <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6">
+        <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-5">
           Let&apos;s Build <br className="hidden md:block" /> Something Together
         </h2>
         
-        <p className="text-xl text-gray-400 font-light mb-12 max-w-lg leading-relaxed">
+        <p className="text-[15px] md:text-lg text-gray-400 font-light mb-10 max-w-lg leading-relaxed">
           Open to backend engineering roles, AI/ML projects, and full-stack collaborations.
         </p>
 
